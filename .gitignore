@@ -1,0 +1,29 @@
+# Extracted mailbox data must never be committed.
+*.csv
+*.xls
+*.xls[xmb]
+*.pst
+*.ost
+out/
+output/
+extracts/
+
+# Real category maps contain live counterparty relationships.
+# Only the sample in examples/ belongs in git.
+*.psd1
+!src/**/*.psd1
+!examples/category-map.sample.psd1
+
+# Secrets
+*.token
+*.key
+.env
+.env.*
+
+# Windows / editor noise
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+~$*
