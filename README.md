@@ -8,6 +8,11 @@ Written up because the two controls involved look like one problem and are
 not, which cost a lot of time to work out. The PowerShell that came out of it
 is included.
 
+**Why this exists:** see [`docs/case-study.md`](docs/case-study.md) for the
+business problem behind it — how an RPA connector turned a locked-down mailbox
+into an approved, least-privilege automation channel, and where that approach
+fits versus reading the mailbox locally.
+
 ## Quick start
 
 Requires Windows, classic Outlook (Office 16) running and signed in, and
