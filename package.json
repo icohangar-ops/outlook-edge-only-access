@@ -1,0 +1,7 @@
+{
+  "name": "outlook-edge-only-access",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PowerShell Outlook MAPI toolkit. No npm runtime dependencies; package-lock.json is committed so Aikido SCA can inventory this root.",
+  "license": "MIT"
+}

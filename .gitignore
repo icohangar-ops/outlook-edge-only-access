@@ -27,3 +27,6 @@ desktop.ini
 .idea/
 *.swp
 ~$*
+
+# npm (lockfile is committed; install artifacts are not)
+node_modules/
